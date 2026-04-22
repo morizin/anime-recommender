@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+# Ignore everything in data/
+/data/**
+
+# But not the raw CSV files
+!/data/raw/
+!/data/raw/*.csv
+
+# Virtual environments
+.venv
+.env
+/logs/
+chroma_db/
